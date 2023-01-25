@@ -96,13 +96,14 @@ cd nlw-setup
  cd server
  yarn
  npx prisma migrate dev
+ yarn dev
  npx prisma studio (para visualizar as tabelas e dados)
-
 ```
 ### Front-end
 
 ```bash
  cd web
+ yarn
  yarn dev
 ```
 ### Mobile
