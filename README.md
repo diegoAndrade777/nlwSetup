@@ -22,7 +22,6 @@ O aplicativo apresenta um quadro diário que mostra a frequência dos hábitos p
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 - [react-native-toast-message](https://www.npmjs.com/package/react-native-toast-message)
-- 
 
 ---
 
