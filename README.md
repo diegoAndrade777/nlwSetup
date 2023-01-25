@@ -96,8 +96,8 @@ cd nlw-setup
  cd mobile
  yarn
  npx expo start
-  Abrirá automaticamente em `localhost:19002`. Iniciae o emulador ou faça o download do *ExpoGo* na Play Store ou App Store e scaneie o QR Code.
 ```
+Obs: Abrirá automaticamente em `localhost:19002`. Iniciae o emulador ou faça o download do *ExpoGo* na Play Store ou App Store e scaneie o QR Code.
 
 ### Modificando o IP local ou porta
 
