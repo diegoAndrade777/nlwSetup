@@ -105,39 +105,39 @@ POST /habits
 
 ## Instalação
 
-> **Note**
-> Esse projeto está configurado como um monorepo e as dependências são gerenciadas pelo PNPM.
-
 ### Configuração inicial
 
 Clone o repositório e instale as dependências.
 
 ```bash
-git clone https://github.com/mateusabelli/nlw-setup
+git clone https://github.com/diegoAndrade777/nlwSetup
 
-cd nlw-setup
+cd nlwSetup
 
-pnpm install
 ```
-
-### Variáveis ambiente
-
-Crie um arquivo .env em `/apps/server/.env` e cole o seguinte código:
+### Back-end
 
 ```bash
-DATABASE_URL="file:./dev.db"
+ cd server
+ yarn
+ npx prisma migrate dev
+ npx prisma studio (para visualizar as tabelas e dados)
+
 ```
-
-### Banco de dados
-
-Com o arquivo .env criado na raiz do `server` rode o seguinte comando:
+### Front-end
 
 ```bash
-pnpm --filter server exec prisma migrate dev
+ cd web
+ yarn dev
 ```
+### Mobile
 
-> **Warning**
-> O comando `prisma generate` possuí uma falha APENAS na etapa da geração da imagem ERD.svg mas funciona normalmente na geração do PrismaClient.
+```bash
+ cd mobile
+ yarn
+ npx expo start
+  Abrirá automaticamente em `localhost:19002`. Iniciae o emulador ou faça o download do *ExpoGo* na Play Store ou App Store e scaneie o QR Code.
+```
 
 ### Modificando o IP local ou porta
 
@@ -159,6 +159,8 @@ Altere de acordo com o seu endereço local, os seguintes arquivos:
 + baseURL: "http://0.0.0.0:3333",
 ```
 
-## Licença
+## Licence
 
-Este projeto está licenciado sob a licença **MIT**. Por favor, leia o arquivo [LICENSE.md](./LICENSE.md) para mais informações.
+[MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
+
+Made with ♥ by Diego Andrade :wave: [Get in touch!](https://www.linkedin.com/in/diego-rodrigo-de-andrade-98a0271a0/)
