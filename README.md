@@ -110,7 +110,7 @@ Altere de acordo com o seu endereço local, os seguintes arquivos:
 ```diff
 # server.ts
 
-- app.listen({ port: 3333, host: "1192.168.1.10" })
+- app.listen({ port: 3333, host: "192.168.1.10" })
 + app.listen({ port: 3333, host: "0.0.0.0" })
 
 # axios.ts
