@@ -9,7 +9,7 @@
 - [Referência da API](#referência-da-api)
 - [Demonstração da aplicação completa](#demonstração-da-aplicação-completa)
 - [Instalação](#instalação)
-- [License](#licença)
+- [Licença](#licença)
 
 ## Sobre
 
@@ -157,7 +157,7 @@ Altere de acordo com o seu endereço local, os seguintes arquivos:
 + baseURL: "http://0.0.0.0:3333",
 ```
 
-## Licence
+## Licença
 
 [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
 
