@@ -108,9 +108,9 @@ POST /habits
 Clone o repositório e instale as dependências.
 
 ```bash
-git clone https://github.com/diegoAndrade777/nlwSetup
+git clone https://github.com/diegoAndrade777/nlw-setup
 
-cd nlwSetup
+cd nlw-setup
 
 ```
 ### Back-end
