@@ -141,9 +141,9 @@ cd nlw-setup
 
 Altere de acordo com o seu endereço local, os seguintes arquivos:
 
-- [axios.ts](./apps/web/src/lib/axios.ts) (web)
-- [axios.ts](./apps/mobile/src/lib/axios.ts) (mobile)
-- [server.ts](./apps/server/src/server.ts) (server)
+- [axios.ts](./web/src/lib/axios.ts) (web)
+- [axios.ts](./mobile/src/lib/axios.ts) (mobile)
+- [server.ts](./server/src/server.ts) (server)
 
 ```diff
 # server.ts
