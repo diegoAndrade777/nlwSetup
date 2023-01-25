@@ -1,6 +1,6 @@
 # Habits • Rastreador de hábitos `<NLW Setup/>`
 
-![](./.github/banner1.png)
+![](./banner1.png)
 
 ## Índice
 
