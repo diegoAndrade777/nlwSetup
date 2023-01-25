@@ -44,7 +44,7 @@ O aplicativo apresenta um quadro diário que mostra a frequência dos hábitos p
     Foi concluída toda a integração dos dados com a lista de hábitos exibida no gráfico diário tanto da web, quanto do mobile. Também foram feitas algumas modificações no estilo e animações para que as operações que fossem apresentadas de forma suave.
 </details>
 
-![](./.github/banner2.png)
+![](./banner2.png)
 
 ---
 
@@ -99,7 +99,7 @@ POST /habits
 
 ## Demonstração da aplicação completa
 
-![](./.github/demo.gif)
+![](./demo.gif)
 
 ## Instalação
 
