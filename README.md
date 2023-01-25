@@ -10,8 +10,6 @@ O aplicativo apresenta um quadro diário que mostra a frequência dos hábitos p
 
 ## Technologias
 
-This project was developed using the following technologies:
-
 - [NodeJS](https://nodejs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Fastify](https://www.fastify.io/)
