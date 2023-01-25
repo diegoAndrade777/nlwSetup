@@ -9,9 +9,7 @@
 - [Referência da API](#referência-da-api)
 - [Demonstração da aplicação completa](#demonstração-da-aplicação-completa)
 - [Instalação](#instalação)
-- [O próximo nível](#o-próximo-nível)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- [License](#licença)
 
 ## Sobre
 
