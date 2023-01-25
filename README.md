@@ -8,6 +8,24 @@ O aplicativo apresenta um quadro diário que mostra a frequência dos hábitos p
 
 ![](./banner2.png)
 
+## Technologias
+
+This project was developed using the following technologies:
+
+- [NodeJS](https://nodejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Fastify](https://www.fastify.io/)
+- [Prisma](https://www.prisma.io/)
+- [ViteJS](https://vitejs.dev/)
+- [ReactJS](https://reactjs.org/)
+- [Dayjs](https://www.npmjs.com/package/dayjs)
+- [react-toastify](https://www.npmjs.com/package/react-toastify)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [react-native-toast-message](https://www.npmjs.com/package/react-native-toast-message)
+- 
+
 ---
 
 ## Referência da API
