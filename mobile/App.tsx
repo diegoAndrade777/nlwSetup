@@ -1,4 +1,6 @@
-import "./src/lib/dayjs"
+import "./src/lib/dayjs";
+
+import Toast from "react-native-toast-message";
 
 import { StatusBar } from "react-native";
 import {
@@ -10,7 +12,7 @@ import {
 } from "@expo-google-fonts/inter";
 
 import { Loading } from "./src/components/Loading";
-import { Home } from "./src/Screens/Home";
+import { Routes } from "./src/routes";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -26,12 +28,13 @@ export default function App() {
 
   return (
     <>
-      <Home />
+      <Routes />
       <StatusBar
         barStyle={"default"}
         backgroundColor={"transparent"}
         translucent
       />
+      <Toast />
     </>
   );
 }
